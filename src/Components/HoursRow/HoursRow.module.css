@@ -1,0 +1,22 @@
+.wrapper{
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid black;
+}
+.commonRow{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 85px;
+  background-color:yellow;
+  padding: 0 2px;
+  height: 25px;
+  line-height: 25px;
+  border-bottom: 1px solid black;
+  font-weight: 800;
+}
+.row{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 85px;
+  padding: 0 2px;
+  height: 25px;
+  line-height: 25px;
+}

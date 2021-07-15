@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0"/>
+    <meta name="theme-color" content="#000000" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Brew">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Bilar</title>
+    <script type="text/javascript" >
+      (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+      m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+   
+      ym(74328400, "init", {
+           clickmap:true,
+           trackLinks:true,
+           accurateTrackBounce:true,
+           webvisor:true
+      });
+   </script>
+   <noscript><div><img src="https://mc.yandex.ru/watch/74328400" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script>
+      if ("serviceWorker" in navigator) {
+        if (navigator.serviceWorker.controller) {
+          // console.log("[PWA Builder] active service worker found, no need to register");
+        } else {
+          // Register the service worker
+          navigator.serviceWorker
+            .register("pwabuilder-sw.js", {
+              scope: "./"
+            })
+            .then(function (reg) {
+              // console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
+            });
+        }
+      }
+      </script>
+  </body>
+</html>

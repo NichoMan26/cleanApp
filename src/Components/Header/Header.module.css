@@ -1,0 +1,41 @@
+.header{
+  padding: 0 10px;
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(66,66,66,1) 100%);
+  height: 60px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.name{
+  color: yellow;
+  font-size: 20px;
+}
+.logo{
+  height: 90%;
+  transition: 1s;
+}
+.userName{
+  color: yellow;
+  font-size: 20px;
+}
+.date{
+  color: yellow;
+}
+.period{
+  display: flex;
+  align-items: center;
+}
+.place__V{
+  color: rgb(239, 42, 42);
+  font-size: 12px;
+  padding: 5px;
+  position: relative;
+  bottom: 2px;
+}
+.place__K{
+  color: rgb(105, 204, 105);
+  font-size: 12px;
+  padding: 5px;
+  position: relative;
+  bottom: 2px;
+}

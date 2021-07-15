@@ -1,0 +1,44 @@
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.form{
+  overflow: hidden;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #fff;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header{
+  background-color: black;
+  padding: 5px 10px;
+  width: 100%;
+  text-align: center;
+  color: yellow;
+}
+.inputWrapper{
+padding: 5px 10px;
+}
+.label{
+  min-width: 65px;
+  display: inline-block;
+}
+.button{
+  background-color: yellow;
+  padding: 10px;
+  border-radius: 10px;
+  border:1px solid black;
+  max-width: 100px;
+  margin: 5px  0 10px;
+}

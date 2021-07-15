@@ -1,0 +1,44 @@
+.carForm{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form{
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+.header{
+  text-align: center;
+  background-color: black;
+  color: yellow;
+  padding: 5px;
+}
+.label{
+  min-width: 70px;
+  display: inline-block;
+}
+.inputWrapper{
+  margin: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.select{
+  min-width: 173px;
+}
+.button{
+  padding: 5px;
+  background-color: #ccc;
+  border: 1px solid black;
+  border-radius: 10px;
+  min-width: 100px;
+  margin: 0 10px;
+}

@@ -1,0 +1,39 @@
+.wrapper{
+}
+.header{
+  background-color: black;
+  color:yellow;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.back{
+  border: 1px solid yellow;
+  border-radius: 5px;
+  height: 30px;
+  width: 60px;
+}
+.back:active{
+  background-color: rgb(110, 110, 19);
+}
+.blank{
+  width: 60px;
+}
+.service__span{
+  font-size: 20px;
+  padding: 0 5px;
+}
+.body{
+  padding: 10px;
+}
+.row{
+  list-style-type: none;
+}
+.header__rus{
+  text-align: center;
+  text-transform: capitalize;
+  margin: 5px 0 0;
+  font-size: 20px;
+  font-weight: bold;
+}

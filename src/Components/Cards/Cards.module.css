@@ -1,0 +1,19 @@
+
+.wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+  margin: 5px;
+}
+.card{
+  background-color: yellow;
+  height: calc((100vh - 105px) / 3);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.latter{
+  font-size: 30px;
+}

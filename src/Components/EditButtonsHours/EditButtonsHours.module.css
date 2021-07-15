@@ -1,0 +1,18 @@
+.wrapper{
+  justify-content: space-evenly;
+  display: flex;
+}
+.editButtons{
+  display: flex;
+  width: 25px;
+  border: 1px solid grey;
+  border-radius: 2px;
+  align-items: center;
+  justify-content: center;
+}
+.editButtons:active{
+  background-color: grey;
+}
+.editButtons:hover{
+  background-color: grey;
+}

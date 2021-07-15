@@ -1,0 +1,16 @@
+.headerRow{
+  background-color: rgba(255, 255, 0, 0.788);
+  padding: 3px;
+  display: grid;
+  font-weight: 800;
+  grid-template-columns:30px 1fr 40px 1fr 1fr 1fr 25px 50px;
+  border-bottom: 1px solid black;
+}
+.headerRow_Count{
+  background-color: rgba(255, 255, 0, 0.788);
+  padding: 3px;
+  display: grid;
+  font-weight: 800;
+  grid-template-columns:30px 1fr 40px 1fr 1fr 1fr 1fr 25px 50px;
+  border-bottom: 1px solid black;
+}
