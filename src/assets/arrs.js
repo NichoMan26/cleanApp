@@ -9,12 +9,12 @@ export const SERVICES = [
   // {latter:'Lq',name:'Liquids', nameRu:'жидкости'},]
 
 export const WASHERS = [
-  {name:'Denis',place:'V'},
   {name:'Igor',place:'K'},
   {name:'Sergey',place:'V'},
   {name:'Anton',place:'V'},
-  {name:'Ilya',place:'K'},
+  {name:'Vasiliy',place:'K'},
   {name:'Jani',place:'V'},
+  {name:'Denis',place:'V'},
 ]
 export const MONTHS = ["янв", "фев", "мар", "апр", "май", "июн", "июл", "авг", "сен", "окт", "ноя", "дек"]
 

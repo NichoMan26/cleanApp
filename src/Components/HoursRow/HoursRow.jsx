@@ -15,7 +15,7 @@ function HoursRow(props) {
     if(el.finish !== 0){
       totalHours += +time
     } 
-    return <li className={cls.row} style={idx % 2 === 0 ? {background:'#cccccc'} : null} key={idx}>
+    return <li className={cls.row} style={idx % 2 === 0 ? {background:'#cccccc'} : {background:'white'}} key={idx}>
             <span>{getTime(el.start)}</span>
             <span>{el.finish === 0 ? 'в процессе...' : getTime(el.finish)}</span>
             <span>{el.finish === 0 ? 'в процессе...' : getHours(time)}</span>

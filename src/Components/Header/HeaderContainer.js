@@ -35,6 +35,7 @@ let mapDispatchToProps = (dispatch) => {
                             place = el.place
                         } 
                     })
+                    console.log('carsd', JSON.parse(data));
                     dispatch(showDaysCars({cars:JSON.parse(data), place}))
                 });
 

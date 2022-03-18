@@ -60,7 +60,7 @@ export const createOptions = (arr, val) => {
   return output
 }
 export const getPlace = (userName) => {
-  let place
+  let place = 'V'
   WASHERS.map((el) => {
     if(el.name === userName){
       place = el.place

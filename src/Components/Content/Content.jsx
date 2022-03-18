@@ -29,8 +29,9 @@ function Content(props) {
                   setIsFetch={props.setIsFetch} />
     } else if (mode === 'REPORT' || mode === 'COUNT'){
       return <Report setCars={props.setCars}
-                userName={props.app.userName}
-                setAppMode={props.setAppMode}/>
+                      cars={props.cars}
+                      userName={props.app.userName}
+                      setAppMode={props.setAppMode}/>
     }else if (mode === 'SEARCH'){
       return <Search setCars={props.setCars}/>
     }
@@ -41,7 +42,7 @@ function Content(props) {
       .then((response) => {
         return response.text()
       })
-      .then((data) => {
+      .then((data) =>{ 
         let place 
         WASHERS.filter((el) => {
           if(el.name === props.app.userName){

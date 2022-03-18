@@ -44,7 +44,7 @@ const cancelAddInArchive = () => {
               </div>
             </div>
             {archiveConfirm ? <WindowConfirms
-                          header={'Архивировать запись?'}
+                          header={'Архивировать заПИСИ?'}
                           buttonConfirm={'Архивировать'}
                           buttonCancel={'Отмена'}
                           confirmFunc={addInArchive}

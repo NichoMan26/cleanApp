@@ -63,9 +63,11 @@ function NewInterval(props) {
               className={`${cls.button} ${cls.button_right}`}>
         Начать
       </button>
-      <span>
-        00:00
-      </span>
+      
+      {buttonDisable 
+        ? <span className={cls.status} style={{color:'red'}}>РАБОТАМЕМ</span> 
+        : <span className={cls.status} style={{color:'green'}}>ЧИЛИМ</span>}
+      
       <button disabled={!buttonDisable}
               onClick={() => {pressFinish()}}
               style={!buttonDisable ? {background:'#ccc'} : null} 

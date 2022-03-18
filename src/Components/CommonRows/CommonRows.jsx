@@ -10,6 +10,7 @@ function CommonRows(props) {
   
   
   let totalCount = 0
+  console.log('props.cars: ', props.cars);
   let input = props.cars.map((e, idx)=> {
 
     let color = getServiceColor(e.service)
